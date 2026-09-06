@@ -44,6 +44,5 @@ Desenvolvido por Gabriel Mattos
 
 Estudante de Análise e Desenvolvimento de Sistemas (ADS).
 
-LinkedIn: Insira o link do seu perfil aqui
 
 GitHub: GabrielMattos0204
