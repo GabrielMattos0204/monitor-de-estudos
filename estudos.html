@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitor de Estudos</title>
+    <link rel="stylesheet" href="estudos.css">
+</head>
+<body>
+
+    <h1>📚 Monitor de Estudos</h1>
+
+    <div class="card">
+        <button class="btn btn-mode" onclick="setModo(2.5)">Modo Completo (2h30)</button>
+        <button class="btn btn-mode" onclick="setModo(1.5)">Modo Curto (1h30)</button>
+    </div>
+
+    <div class="card">
+        <div id="block-name" class="block-title">Bloco 1 — Conteúdo Principal</div>
+        <div id="timer" class="timer">50:00</div>
+        <button id="start-btn" class="btn btn-main" onclick="toggleTimer()">Iniciar</button>
+        <button class="btn btn-mode" onclick="proximoBloco()">Pular Bloco</button>
+    </div>
+
+    <script src="estudos.js"></script>
+</body>
+</html>

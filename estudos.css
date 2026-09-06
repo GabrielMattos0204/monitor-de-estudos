@@ -1,0 +1,47 @@
+CSS
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    background: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #00e676;
+}
+
+.btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.btn-main {
+    background: #00e676;
+    color: #000000;
+}
+
+.btn-mode {
+    background: #333333;
+    color: #ffffff;
+}
+
+.block-title {
+    font-size: 1.2rem;
+    color: #b0bec5;
+}
